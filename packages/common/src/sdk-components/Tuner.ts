@@ -37,7 +37,7 @@ class Tuner extends SceneComponent {
 
   onEvent(eventType: string, eventData: unknown) {
     if (eventType === Event.Next) {
-      this.urlIndex++;
+      //this.urlIndex++;
       if (this.urlIndex >= this.inputs.urls.length) {
         this.urlIndex = 0;
       }

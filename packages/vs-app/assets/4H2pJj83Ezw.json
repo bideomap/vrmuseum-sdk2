@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "payload": {
+    "objects": [{
+        "name": "image1",
+         "position": {
+          "x": 21.115,
+          "y": 1.65,
+          "z": 3.875
+        },
+        "rotation": {
+          "x": 0,
+          "y": -120,
+          "z": 0
+        },
+        "scale": {
+          "x": 1.775,
+          "y": 3.2,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 1,
+              "isGalleryMode": true,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230816_%EA%B5%AD%EB%A6%BD%EC%B2%AD%EC%A3%BC%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%9D%B4%EA%B1%B4%ED%9D%AC%EC%A0%84/yagum/yagum_poster.jpg",
+
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+              "w": 1684,
+              "h": 2384
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+              "w": 1684,
+              "h": 2384
+              }
+            }
+
+
+
+          },
+
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 1,
+              "textureRes": {
+              "w": 1684,
+              "h": 2384
+              }
+            }
+          },
+          {
+
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "opacity": 1,
+              "planeColorString": "0xb0b0b0",
+              "localScale": {
+                "x": 0.8,
+                "y": 0.8,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0.015
+              },
+              "isCollider": false,
+              "informationsString": {
+                "artist_name": null,
+                "artist_detail": null,
+                "piece_name": null,
+                "piece_detail": null,
+                "material": null,
+                "size": null,
+                "createdDate": null,
+                "owner": null
+              },
+              "DrawUrlInformationsString": {
+                "drawUrl": null
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "painter", 0, "painter"],
+          [2, "texture", 1, "texture"]
+
+
+        ],
+        "events": [
+          [1, "repaint", 0, "paint.ready"]
+        ]
+      }
+      
+
+
+
+    ]
+  }
+}

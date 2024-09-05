@@ -1,0 +1,2720 @@
+{
+  "version": "1.0",
+  "payload": {
+    "objects": [
+  
+  {
+        "name": "image1_pannel_bird_3",
+        "position": {
+          "x": 17.175,
+          "y": 1.24,
+          "z": 22.55
+        },
+        "rotation": {
+          "x": -0.5,
+          "y": 180,
+          "z": 0
+        },
+        "scale": {
+          "x": 0.7,
+          "y": 1.23,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 1,
+              "isGalleryMode": true,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/thumb/bird3_thumb.jpg",
+
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 1215,
+                "h": 2160
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 1215,
+                "h": 2160
+              }
+            }
+
+
+
+          },
+
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 1,
+              "textureRes": {
+                "w": 1215,
+                "h": 2160
+              }
+            }
+          },
+          {
+
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "opacity": 1,
+              "planeColorString": "0xb0b0b0",
+              "localScale": {
+                "x": 0.8,
+                "y": 0.8,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0.015
+              },
+              "isCollider": false,
+              "informationsString": {
+                "artist_name": null,
+                "artist_detail": null,
+                "piece_name": null,
+                "piece_detail": null,
+                "material": null,
+                "size": null,
+                "createdDate": null,
+                "owner": null
+              },
+              "DrawUrlInformationsString": {
+                "drawUrl": null
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "painter", 0, "painter"],
+          [2, "texture", 1, "texture"]
+
+
+        ],
+        "events": [
+          [1, "repaint", 0, "paint.ready"]
+        ]
+   },
+   {
+        "name": "image2_pannel2_sang_15_1",
+        "position": {
+          "x": 20.825,
+          "y": 1.19,
+          "z": 12.525
+        },
+        "rotation": {
+          "x": 0.45,
+          "y": 180,
+          "z": 0
+        },
+        "scale": {
+          "x": 0.75,
+          "y": 1.275,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 1,
+              "isGalleryMode": true,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/thumb/sang15_1_thumb.png",
+
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+               "w": 810,
+                "h": 1440
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+               "w": 810,
+                "h": 1440
+              }
+            }
+
+
+
+          },
+
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 1,
+              "textureRes": {
+               "w": 810,
+                "h": 1440
+              }
+            }
+          },
+          {
+
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "opacity": 1,
+              "planeColorString": "0xb0b0b0",
+              "localScale": {
+                "x": 0.8,
+                "y": 0.8,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0.015
+              },
+              "isCollider": false,
+              "informationsString": {
+                "artist_name": null,
+                "artist_detail": null,
+                "piece_name": null,
+                "piece_detail": null,
+                "material": null,
+                "size": null,
+                "createdDate": null,
+                "owner": null
+              },
+              "DrawUrlInformationsString": {
+                "drawUrl": null
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "painter", 0, "painter"],
+          [2, "texture", 1, "texture"]
+
+
+        ],
+        "events": [
+          [1, "repaint", 0, "paint.ready"]
+        ]
+   },
+   {
+        "name": "image3_pannel3_to_15_2",
+        "position": {
+          "x": 19.965,
+          "y": 1.19,
+          "z": 12.525
+        },
+        "rotation": {
+          "x": 0.45,
+          "y": 180,
+          "z": 0
+        },
+        "scale": {
+          "x": 0.75,
+          "y": 1.275,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 1,
+              "isGalleryMode": true,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/thumb/to_15_2_thumb.png",
+
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 810,
+                "h": 1440
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 810,
+                "h": 1440
+              }
+            }
+
+
+
+          },
+
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 1,
+              "textureRes": {
+                "w": 810,
+                "h": 1440
+              }
+            }
+          },
+          {
+
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "opacity": 1,
+              "planeColorString": "0xb0b0b0",
+              "localScale": {
+                "x": 0.8,
+                "y": 0.8,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0.015
+              },
+              "isCollider": false,
+              "informationsString": {
+                "artist_name": null,
+                "artist_detail": null,
+                "piece_name": null,
+                "piece_detail": null,
+                "material": null,
+                "size": null,
+                "createdDate": null,
+                "owner": null
+              },
+              "DrawUrlInformationsString": {
+                "drawUrl": null
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "painter", 0, "painter"],
+          [2, "texture", 1, "texture"]
+
+
+        ],
+        "events": [
+          [1, "repaint", 0, "paint.ready"]
+        ]
+   },
+   {
+        "name": "image4_mainhall_pannel4_11_1",
+         "position": {
+          "x": 51.1,
+          "y": 1.5,
+          "z": 23.425
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 1.422,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 1,
+              "isGalleryMode": true,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/thumb/11_1_thumb.png",
+
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 556,
+                "h": 864
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 556,
+                "h": 864
+              }
+            }
+
+
+
+          },
+
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 1,
+              "textureRes": {
+                "w": 556,
+                "h": 864
+              }
+            }
+          },
+          {
+
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "opacity": 1,
+              "planeColorString": "0xb0b0b0",
+              "localScale": {
+                "x": 0.8,
+                "y": 0.8,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0.015
+              },
+              "isCollider": false,
+              "informationsString": {
+                "artist_name": null,
+                "artist_detail": null,
+                "piece_name": null,
+                "piece_detail": null,
+                "material": null,
+                "size": null,
+                "createdDate": null,
+                "owner": null
+              },
+              "DrawUrlInformationsString": {
+                "drawUrl": null
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "painter", 0, "painter"],
+          [2, "texture", 1, "texture"]
+
+
+        ],
+        "events": [
+          [1, "repaint", 0, "paint.ready"]
+        ]
+   },
+   {
+        "name": "image5_mainhall_pannel5_11_2",
+         "position": {
+          "x": 44.1,
+          "y": 1.5,
+          "z": 9.495
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 1.422,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 1,
+              "isGalleryMode": true,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/thumb/11_2_thumb.png",
+
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 495,
+                "h": 762
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 495,
+                "h": 762
+              }
+            }
+
+
+
+          },
+
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 1,
+              "textureRes": {
+                "w": 495,
+                "h": 762
+              }
+            }
+          },
+          {
+
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "opacity": 1,
+              "planeColorString": "0xb0b0b0",
+              "localScale": {
+                "x": 0.8,
+                "y": 0.8,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0.015
+              },
+              "isCollider": false,
+              "informationsString": {
+                "artist_name": null,
+                "artist_detail": null,
+                "piece_name": null,
+                "piece_detail": null,
+                "material": null,
+                "size": null,
+                "createdDate": null,
+                "owner": null
+              },
+              "DrawUrlInformationsString": {
+                "drawUrl": null
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "painter", 0, "painter"],
+          [2, "texture", 1, "texture"]
+
+
+        ],
+        "events": [
+          [1, "repaint", 0, "paint.ready"]
+        ]
+   },
+   {
+        "name": "image6_mainhall_pannel6_11_3",
+         "position": {
+          "x": 39.1,
+          "y": 1.5,
+          "z": 9.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 1.422,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 1,
+              "isGalleryMode": true,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/thumb/11_3_thumb.png",
+
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 456,
+                "h": 712
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 456,
+                "h": 712
+              }
+            }
+
+
+
+          },
+
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 1,
+              "textureRes": {
+                "w": 456,
+                "h": 712
+              }
+            }
+          },
+          {
+
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "opacity": 1,
+              "planeColorString": "0xb0b0b0",
+              "localScale": {
+                "x": 0.8,
+                "y": 0.8,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0.015
+              },
+              "isCollider": false,
+              "informationsString": {
+                "artist_name": null,
+                "artist_detail": null,
+                "piece_name": null,
+                "piece_detail": null,
+                "material": null,
+                "size": null,
+                "createdDate": null,
+                "owner": null
+              },
+              "DrawUrlInformationsString": {
+                "drawUrl": null
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "painter", 0, "painter"],
+          [2, "texture", 1, "texture"]
+
+
+        ],
+        "events": [
+          [1, "repaint", 0, "paint.ready"]
+        ]
+   },
+ 
+  {
+        "name": "image9_panel2_ham",
+        "position": {
+          "x": 7.25,
+          "y": 1.35,
+          "z": 18.63
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": {
+          "x": 1.275,
+          "y": 2.267,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 1,
+              "isGalleryMode": true,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/thumb/2_ham_thumb.jpg",
+
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 528,
+                "h": 940
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 528,
+                "h": 940
+              }
+            }
+
+
+
+          },
+
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 1,
+              "textureRes": {
+                "w": 528,
+                "h": 940
+              }
+            }
+          },
+          {
+
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "opacity": 1,
+              "planeColorString": "0xb0b0b0",
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0.015
+              },
+              "isCollider": false,
+              "informationsString": {
+                "artist_name": null,
+                "artist_detail": null,
+                "piece_name": null,
+                "piece_detail": null,
+                "material": null,
+                "size": null,
+                "createdDate": null,
+                "owner": null
+              },
+              "DrawUrlInformationsString": {
+                "drawUrl": null
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "painter", 0, "painter"],
+          [2, "texture", 1, "texture"]
+
+
+        ],
+        "events": [
+          [1, "repaint", 0, "paint.ready"]
+        ]
+   },
+  {
+        "name": "image10_panel6_mal",
+         "position": {
+          "x": 19.6,
+          "y": 1.2,
+          "z": 21.75
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1.7,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 1,
+              "isGalleryMode": true,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/thumb/mal6_thumb.jpg",
+
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 528,
+                "h": 941
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 528,
+                "h": 941
+              }
+            }
+
+
+
+          },
+
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 1,
+              "textureRes": {
+                "w": 528,
+                "h": 941
+              }
+            }
+          },
+          {
+
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "opacity": 1,
+              "planeColorString": "0xb0b0b0",
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0.015
+              },
+              "isCollider": false,
+              "informationsString": {
+                "artist_name": null,
+                "artist_detail": null,
+                "piece_name": null,
+                "piece_detail": null,
+                "material": null,
+                "size": null,
+                "createdDate": null,
+                "owner": null
+              },
+              "DrawUrlInformationsString": {
+                "drawUrl": null
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "painter", 0, "painter"],
+          [2, "texture", 1, "texture"]
+
+
+        ],
+        "events": [
+          [1, "repaint", 0, "paint.ready"]
+        ]
+   },
+  {
+        "name": "image11_panel7_to",
+            "position": {
+          "x": 19.6,
+          "y": 1.2,
+          "z": 21.075
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1.7,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 1,
+              "isGalleryMode": true,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/thumb/ba_7_thumb.jpg",
+
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 528,
+                "h": 941
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                 "w": 528,
+                "h": 941
+              }
+            }
+
+
+
+          },
+
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 1,
+              "textureRes": {
+                 "w": 528,
+                "h": 941
+              }
+            }
+          },
+          {
+
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "opacity": 1,
+              "planeColorString": "0xb0b0b0",
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0.015
+              },
+              "isCollider": false,
+              "informationsString": {
+                "artist_name": null,
+                "artist_detail": null,
+                "piece_name": null,
+                "piece_detail": null,
+                "material": null,
+                "size": null,
+                "createdDate": null,
+                "owner": null
+              },
+              "DrawUrlInformationsString": {
+                "drawUrl": null
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "painter", 0, "painter"],
+          [2, "texture", 1, "texture"]
+
+
+        ],
+        "events": [
+          [1, "repaint", 0, "paint.ready"]
+        ]
+   },
+  {
+        "name": "image12_panel8_ct",
+            "position": {
+          "x": 26.7,
+          "y": 1.25,
+          "z": 13.7
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": {
+          "x": 0.7,
+          "y": 1.2,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 1,
+              "isGalleryMode": true,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/thumb/ct_9_thumb.jpg",
+
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 523,
+                "h": 934
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 523,
+                "h": 934
+              }
+            }
+
+
+
+          },
+
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 1,
+              "textureRes": {
+                 "w": 523,
+                "h": 934
+              }
+            }
+          },
+          {
+
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "opacity": 1,
+              "planeColorString": "0xb0b0b0",
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0.015
+              },
+              "isCollider": false,
+              "informationsString": {
+                "artist_name": null,
+                "artist_detail": null,
+                "piece_name": null,
+                "piece_detail": null,
+                "material": null,
+                "size": null,
+                "createdDate": null,
+                "owner": null
+              },
+              "DrawUrlInformationsString": {
+                "drawUrl": null
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "painter", 0, "painter"],
+          [2, "texture", 1, "texture"]
+
+
+        ],
+        "events": [
+          [1, "repaint", 0, "paint.ready"]
+        ]
+   },
+   {
+        "name": "video1Alpha_fire",
+        "position": {
+          "x": 32.33,
+          "y": 1.2,
+          "z": 13.27
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "scale": {
+          "x": 2,
+          "y": 1.1,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.tuner",
+            "inputs": {
+              "urls": [
+                "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/SDKMuseumTSVideos/tsVideoTest/index.m3u8"
+              ]
+            },
+            "events": {
+              "next": true
+            }
+          },
+          {
+            "type": "mp.hlsLoader"
+
+          },
+          {
+            "type": "mp.videoRenderer",
+            "inputs": {
+
+              "webmSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/video/jan_33.mp4",
+              "isWebm": true,
+              "isMuted": false
+            }
+          },
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "visible": true,
+              "opacity": 0.7,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "type": "mp.toggleState",
+            "inputs": {
+              "initialState": true
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "opacity": 0,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              }
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 1024,
+                "h": 1024
+              }
+            }
+          },
+          {
+            "type": "mp.canvasBorder",
+            "inputs": {
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "h": 1024,
+                "w": 1024
+              },
+              "radius": 50
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "transparent": true,
+              "opacity": 1,
+              "visible": false,
+              "polygonOffset": true,
+              "isCollider": false,
+              "polygonOffsetFactor": -2
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 512,
+                "h": 512
+              }
+            }
+          },
+          {
+            "type": "mp.canvasText",
+            "inputs": {
+              "size": {
+                "h": 512,
+                "w": 512
+              },
+              "text": "",
+              "font": "normal bold 40px sans-serif",
+              "position": {
+                "x": 160,
+                "y": 210,
+                "z": 0
+              },
+              "textWidth": 250
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "isCollider": false,
+              "opacity": 0,
+              "localScale": {
+                "x": 0.08,
+                "y": 0.08,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0.23,
+                "y": -0.2,
+                "z": -0.01
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 0,
+              "textureRes": {
+                "w": 128,
+                "h": 128
+              },
+
+              "soundOnSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "soundOffSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png"
+            }
+          },
+          {
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 0,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%9D%8C%EC%86%8C%EA%B1%B0.png",
+              "src2": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 128,
+                "h": 128
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 128,
+                "h": 128
+              }
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "src", 0, "src"],
+          [2, "src", 1, "video"],
+          [3, "texture", 2, "texture"],
+          [1, "enabled", 4, "state"],
+          [3, "aspect", 1, "aspect"],
+
+          [6, "painter", 7, "painter"],
+          [5, "texture", 6, "texture"],
+          [5, "aspect", 1, "aspect"],
+
+          [9, "painter", 10, "painter"],
+          [8, "texture", 9, "texture"],
+          [8, "visible", 4, "negated"],
+
+          [12, "painter", 13, "painter"],
+          [11, "texture", 12, "texture"],
+          [11, "visible", 4, "state"]
+
+        ],
+        "events": [
+          [4, "toggle", 3, "INTERACTION.CLICK"],
+          [0, "next", 11, "INTERACTION.CLICK"],
+          [12, "repaint", 13, "paint.ready"]
+        ]
+   }, 
+   {
+        "name": "video2Alpha_screen1",
+        "position": {
+          "x": 41.32,
+          "y": 1.095,
+          "z": 16.81
+        },
+        "rotation": {
+          "x": -40,
+          "y": -90,
+          "z": 0
+        },
+        "scale": {
+          "x": 2.025,
+          "y": 1.125,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.tuner",
+            "inputs": {
+              "urls": [
+                "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/SDKMuseumTSVideos/tsVideoTest/index.m3u8"
+              ]
+            },
+            "events": {
+              "next": true
+            }
+          },
+          {
+            "type": "mp.hlsLoader"
+
+          },
+          {
+            "type": "mp.videoRenderer",
+            "inputs": {
+
+              "webmSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/AlphaGlass/10_1_4.webm",
+              "isWebm": true,
+              "isMuted": false
+            }
+          },
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "visible": true,
+              "opacity": 1,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "type": "mp.toggleState",
+            "inputs": {
+              "initialState": true
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "opacity": 0,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              }
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 1024,
+                "h": 1024
+              }
+            }
+          },
+          {
+            "type": "mp.canvasBorder",
+            "inputs": {
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "h": 1024,
+                "w": 1024
+              },
+              "radius": 50
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "transparent": true,
+              "opacity": 1,
+              "visible": false,
+              "polygonOffset": true,
+              "isCollider": false,
+              "polygonOffsetFactor": -2
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 512,
+                "h": 512
+              }
+            }
+          },
+          {
+            "type": "mp.canvasText",
+            "inputs": {
+              "size": {
+                "h": 512,
+                "w": 512
+              },
+              "text": "",
+              "font": "normal bold 40px sans-serif",
+              "position": {
+                "x": 160,
+                "y": 210,
+                "z": 0
+              },
+              "textWidth": 250
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "isCollider": false,
+              "opacity": 0,
+              "localScale": {
+                "x": 0.08,
+                "y": 0.08,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0.23,
+                "y": 0.02,
+                "z": -0.01
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 0,
+              "textureRes": {
+                "w": 128,
+                "h": 128
+              },
+
+              "soundOnSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "soundOffSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png"
+            }
+          },
+          {
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 0,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%9D%8C%EC%86%8C%EA%B1%B0.png",
+              "src2": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 128,
+                "h": 128
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 128,
+                "h": 128
+              }
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "src", 0, "src"],
+          [2, "src", 1, "video"],
+          [3, "texture", 2, "texture"],
+          [1, "enabled", 4, "state"],
+          [3, "aspect", 1, "aspect"],
+
+          [6, "painter", 7, "painter"],
+          [5, "texture", 6, "texture"],
+          [5, "aspect", 1, "aspect"],
+
+          [9, "painter", 10, "painter"],
+          [8, "texture", 9, "texture"],
+          [8, "visible", 4, "negated"],
+
+          [12, "painter", 13, "painter"],
+          [11, "texture", 12, "texture"],
+          [11, "visible", 4, "state"]
+
+        ],
+        "events": [
+          [4, "toggle", 3, "INTERACTION.CLICK"],
+          [0, "next", 11, "INTERACTION.CLICK"],
+          [12, "repaint", 13, "paint.ready"]
+        ]
+   },
+   {
+        "name": "video3Alpha_screen2",
+        "position": {
+          "x": 44.8575,
+          "y": 1.095,
+          "z": 16.81
+        },
+        "rotation": {
+          "x": -40,
+          "y": -90,
+          "z": 0
+        },
+        "scale": {
+          "x": 2.025,
+          "y": 1.125,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.tuner",
+            "inputs": {
+              "urls": [
+                "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/SDKMuseumTSVideos/tsVideoTest/index.m3u8"
+              ]
+            },
+            "events": {
+              "next": true
+            }
+          },
+          {
+            "type": "mp.hlsLoader"
+
+          },
+          {
+            "type": "mp.videoRenderer",
+            "inputs": {
+
+              "webmSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/AlphaGlass/10_2_2.webm",
+              "isWebm": true,
+              "isMuted": false
+            }
+          },
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "visible": true,
+              "opacity": 1,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "type": "mp.toggleState",
+            "inputs": {
+              "initialState": true
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "opacity": 0,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              }
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 1024,
+                "h": 1024
+              }
+            }
+          },
+          {
+            "type": "mp.canvasBorder",
+            "inputs": {
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "h": 1024,
+                "w": 1024
+              },
+              "radius": 50
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "transparent": true,
+              "opacity": 1,
+              "visible": false,
+              "polygonOffset": true,
+              "isCollider": false,
+              "polygonOffsetFactor": -2
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 512,
+                "h": 512
+              }
+            }
+          },
+          {
+            "type": "mp.canvasText",
+            "inputs": {
+              "size": {
+                "h": 512,
+                "w": 512
+              },
+              "text": "",
+              "font": "normal bold 40px sans-serif",
+              "position": {
+                "x": 160,
+                "y": 210,
+                "z": 0
+              },
+              "textWidth": 250
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "isCollider": false,
+              "opacity": 0,
+              "localScale": {
+                "x": 0.08,
+                "y": 0.08,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0.23,
+                "y": -0.2,
+                "z": -0.01
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 0,
+              "textureRes": {
+                "w": 128,
+                "h": 128
+              },
+
+              "soundOnSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "soundOffSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png"
+            }
+          },
+          {
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 0,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%9D%8C%EC%86%8C%EA%B1%B0.png",
+              "src2": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 128,
+                "h": 128
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 128,
+                "h": 128
+              }
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "src", 0, "src"],
+          [2, "src", 1, "video"],
+          [3, "texture", 2, "texture"],
+          [1, "enabled", 4, "state"],
+          [3, "aspect", 1, "aspect"],
+
+          [6, "painter", 7, "painter"],
+          [5, "texture", 6, "texture"],
+          [5, "aspect", 1, "aspect"],
+
+          [9, "painter", 10, "painter"],
+          [8, "texture", 9, "texture"],
+          [8, "visible", 4, "negated"],
+
+          [12, "painter", 13, "painter"],
+          [11, "texture", 12, "texture"],
+          [11, "visible", 4, "state"]
+
+        ],
+        "events": [
+          [4, "toggle", 3, "INTERACTION.CLICK"],
+          [0, "next", 11, "INTERACTION.CLICK"],
+          [12, "repaint", 13, "paint.ready"]
+        ]
+   },
+   {
+        "name": "video4Alpha_screen3",
+        "position": {
+          "x": 48.395,
+          "y": 1.095,
+          "z": 16.8145
+        },
+        "rotation": {
+          "x": -40,
+          "y": -90,
+          "z": 0
+        },
+        "scale": {
+          "x": 2.025,
+          "y": 1.125,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.tuner",
+            "inputs": {
+              "urls": [
+                "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/SDKMuseumTSVideos/tsVideoTest/index.m3u8"
+              ]
+            },
+            "events": {
+              "next": true
+            }
+          },
+          {
+            "type": "mp.hlsLoader"
+
+          },
+          {
+            "type": "mp.videoRenderer",
+            "inputs": {
+
+              "webmSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/AlphaGlass/10_3_2.webm",
+              "isWebm": true,
+              "isMuted": false
+            }
+          },
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "visible": true,
+              "opacity": 1,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "type": "mp.toggleState",
+            "inputs": {
+              "initialState": true
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "opacity": 0,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              }
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 1024,
+                "h": 1024
+              }
+            }
+          },
+          {
+            "type": "mp.canvasBorder",
+            "inputs": {
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "h": 1024,
+                "w": 1024
+              },
+              "radius": 50
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "transparent": true,
+              "opacity": 1,
+              "visible": false,
+              "polygonOffset": true,
+              "isCollider": false,
+              "polygonOffsetFactor": -2
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 512,
+                "h": 512
+              }
+            }
+          },
+          {
+            "type": "mp.canvasText",
+            "inputs": {
+              "size": {
+                "h": 512,
+                "w": 512
+              },
+              "text": "",
+              "font": "normal bold 40px sans-serif",
+              "position": {
+                "x": 160,
+                "y": 210,
+                "z": 0
+              },
+              "textWidth": 250
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "isCollider": false,
+              "opacity": 0,
+              "localScale": {
+                "x": 0.08,
+                "y": 0.08,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0.23,
+                "y": -0.2,
+                "z": -0.01
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 0,
+              "textureRes": {
+                "w": 128,
+                "h": 128
+              },
+
+              "soundOnSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "soundOffSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png"
+            }
+          },
+          {
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 0,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%9D%8C%EC%86%8C%EA%B1%B0.png",
+              "src2": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 128,
+                "h": 128
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 128,
+                "h": 128
+              }
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "src", 0, "src"],
+          [2, "src", 1, "video"],
+          [3, "texture", 2, "texture"],
+          [1, "enabled", 4, "state"],
+          [3, "aspect", 1, "aspect"],
+
+          [6, "painter", 7, "painter"],
+          [5, "texture", 6, "texture"],
+          [5, "aspect", 1, "aspect"],
+
+          [9, "painter", 10, "painter"],
+          [8, "texture", 9, "texture"],
+          [8, "visible", 4, "negated"],
+
+          [12, "painter", 13, "painter"],
+          [11, "texture", 12, "texture"],
+          [11, "visible", 4, "state"]
+
+        ],
+        "events": [
+          [4, "toggle", 3, "INTERACTION.CLICK"],
+          [0, "next", 11, "INTERACTION.CLICK"],
+          [12, "repaint", 13, "paint.ready"]
+        ]
+   },
+   {
+        "name": "video5wall",
+        "position": {
+          "x": 52.67,
+          "y": 2.9,
+          "z": 16.83
+        },
+        "rotation": {
+          "x": 0,
+          "y": -90,
+          "z": 0
+        },
+        "scale": {
+          "x": 3.7,
+          "y": 7.1,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.tuner",
+            "inputs": {
+              "urls": [
+                "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/SDKMuseumTSVideos/tsVideoTest/index.m3u8"
+              ]
+            },
+            "events": {
+              "next": true
+            }
+          },
+          {
+            "type": "mp.hlsLoader"
+
+          },
+          {
+            "type": "mp.videoRenderer",
+            "inputs": {
+
+              "webmSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/video/story_33.mp4",
+              "isWebm": true,
+              "isMuted": false
+            }
+          },
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": false,
+              "visible": true,
+              "opacity": 1,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "type": "mp.toggleState",
+            "inputs": {
+              "initialState": true
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "opacity": 0,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              }
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 1024,
+                "h": 1024
+              }
+            }
+          },
+          {
+            "type": "mp.canvasBorder",
+            "inputs": {
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "h": 1024,
+                "w": 1024
+              },
+              "radius": 50
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "transparent": true,
+              "opacity": 1,
+              "visible": false,
+              "polygonOffset": true,
+              "isCollider": false,
+              "polygonOffsetFactor": -2
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 512,
+                "h": 512
+              }
+            }
+          },
+          {
+            "type": "mp.canvasText",
+            "inputs": {
+              "size": {
+                "h": 512,
+                "w": 512
+              },
+              "text": "",
+              "font": "normal bold 40px sans-serif",
+              "position": {
+                "x": 160,
+                "y": 210,
+                "z": 0
+              },
+              "textWidth": 250
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "isCollider": false,
+              "opacity": 0,
+              "localScale": {
+                "x": 0.08,
+                "y": 0.08,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0.23,
+                "y": -0.2,
+                "z": 0.01
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 0,
+              "textureRes": {
+                "w": 128,
+                "h": 128
+              },
+
+              "soundOnSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "soundOffSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png"
+            }
+          },
+          {
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 0,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%9D%8C%EC%86%8C%EA%B1%B0.png",
+              "src2": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 128,
+                "h": 128
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 128,
+                "h": 128
+              }
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "src", 0, "src"],
+          [2, "src", 1, "video"],
+          [3, "texture", 2, "texture"],
+          [1, "enabled", 4, "state"],
+          [3, "aspect", 1, "aspect"],
+
+          [6, "painter", 7, "painter"],
+          [5, "texture", 6, "texture"],
+          [5, "aspect", 1, "aspect"],
+
+          [9, "painter", 10, "painter"],
+          [8, "texture", 9, "texture"],
+          [8, "visible", 4, "negated"],
+
+          [12, "painter", 13, "painter"],
+          [11, "texture", 12, "texture"],
+          [11, "visible", 4, "state"]
+
+        ],
+        "events": [
+          [4, "toggle", 3, "INTERACTION.CLICK"],
+          [0, "next", 11, "INTERACTION.CLICK"],
+          [12, "repaint", 13, "paint.ready"]
+        ]
+   }, 
+  
+  
+   {
+        "name": "video9housevideo1",
+          "position": {
+          "x": 32.35,
+          "y": 1.75,
+          "z": 12.795
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "scale": {
+          "x": 7.6,
+          "y": 6,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.tuner",
+            "inputs": {
+              "urls": [
+                "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/SDKMuseumTSVideos/tsVideoTest/index.m3u8"
+              ]
+            },
+            "events": {
+              "next": true
+            }
+          },
+          {
+            "type": "mp.hlsLoader"
+
+          },
+          {
+            "type": "mp.videoRenderer",
+            "inputs": {
+
+              "webmSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/221011_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%A3%BC%EB%B0%95%EB%AC%BC%EA%B4%80_%EB%B0%B1%EC%A0%9C%EA%B7%80%EC%97%A3%EA%B3%A0%EB%A6%AC/ts/alphaVideo_1.webm",
+              "isWebm": true,
+              "isMuted": false
+            }
+          },
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "visible": true,
+              "opacity": 0,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "type": "mp.toggleState",
+            "inputs": {
+              "initialState": true
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "opacity": 0,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              }
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 1024,
+                "h": 1024
+              }
+            }
+          },
+          {
+            "type": "mp.canvasBorder",
+            "inputs": {
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "h": 1024,
+                "w": 1024
+              },
+              "radius": 50
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "transparent": true,
+              "opacity": 1,
+              "visible": false,
+              "polygonOffset": true,
+              "isCollider": false,
+              "polygonOffsetFactor": -2
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 512,
+                "h": 512
+              }
+            }
+          },
+          {
+            "type": "mp.canvasText",
+            "inputs": {
+              "size": {
+                "h": 512,
+                "w": 512
+              },
+              "text": "",
+              "font": "normal bold 40px sans-serif",
+              "position": {
+                "x": 160,
+                "y": 210,
+                "z": 0
+              },
+              "textWidth": 250
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "isCollider": false,
+              "opacity": 0,
+              "localScale": {
+                "x": 0.08,
+                "y": 0.08,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0.23,
+                "y": -0.2,
+                "z": 0.01
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 0,
+              "textureRes": {
+                "w": 128,
+                "h": 128
+              },
+
+              "soundOnSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "soundOffSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png"
+            }
+          },
+          {
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 0,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%9D%8C%EC%86%8C%EA%B1%B0.png",
+              "src2": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 128,
+                "h": 128
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 128,
+                "h": 128
+              }
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "src", 0, "src"],
+          [2, "src", 1, "video"],
+          [3, "texture", 2, "texture"],
+          [1, "enabled", 4, "state"],
+          [3, "aspect", 1, "aspect"],
+
+          [6, "painter", 7, "painter"],
+          [5, "texture", 6, "texture"],
+          [5, "aspect", 1, "aspect"],
+
+          [9, "painter", 10, "painter"],
+          [8, "texture", 9, "texture"],
+          [8, "visible", 4, "negated"],
+
+          [12, "painter", 13, "painter"],
+          [11, "texture", 12, "texture"],
+          [11, "visible", 4, "state"]
+
+        ],
+        "events": [
+          [4, "toggle", 3, "INTERACTION.CLICK"],
+          [0, "next", 11, "INTERACTION.CLICK"],
+          [12, "repaint", 13, "paint.ready"]
+        ]
+   },
+   {
+        "name": "video10_mainhallwall",
+         "position": {
+          "x": 44.6,
+          "y": 1.75,
+          "z": 23.425
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "scale": {
+          "x": 3.25,
+          "y": 1.83,
+          "z": 1
+        },
+        "components": [{
+            "type": "mp.tuner",
+            "inputs": {
+              "urls": [
+                "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/SDKMuseumTSVideos/tsVideoTest/index.m3u8"
+              ]
+            },
+            "events": {
+              "next": true
+            }
+          },
+          {
+            "type": "mp.hlsLoader"
+
+          },
+          {
+            "type": "mp.videoRenderer",
+            "inputs": {
+
+              "webmSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/230905_%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%B0%95%EB%AC%BC%EA%B4%80_%EC%98%81%EC%9B%90%ED%95%9C%EC%97%AC%EC%A0%95/video/glass_33.mp4",
+              "isWebm": true,
+              "isMuted": false
+            }
+          },
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": false,
+              "visible": true,
+              "opacity": 1,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "localPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "type": "mp.toggleState",
+            "inputs": {
+              "initialState": true
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "transparent": true,
+              "opacity": 0,
+              "isCollider": false,
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              }
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 1024,
+                "h": 1024
+              }
+            }
+          },
+          {
+            "type": "mp.canvasBorder",
+            "inputs": {
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "h": 1024,
+                "w": 1024
+              },
+              "radius": 50
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "localScale": {
+                "x": 0.6,
+                "y": 0.6,
+                "z": 0.6
+              },
+              "transparent": true,
+              "opacity": 1,
+              "visible": false,
+              "polygonOffset": true,
+              "isCollider": false,
+              "polygonOffsetFactor": -2
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+
+              "textureRes": {
+                "w": 512,
+                "h": 512
+              }
+            }
+          },
+          {
+            "type": "mp.canvasText",
+            "inputs": {
+              "size": {
+                "h": 512,
+                "w": 512
+              },
+              "text": "",
+              "font": "normal bold 40px sans-serif",
+              "position": {
+                "x": 160,
+                "y": 210,
+                "z": 0
+              },
+              "textWidth": 250
+            }
+          },
+
+          {
+            "type": "mp.planeRenderer",
+            "inputs": {
+              "isCollider": false,
+              "opacity": 0,
+              "localScale": {
+                "x": 0.08,
+                "y": 0.08,
+                "z": 0.01
+              },
+              "localPosition": {
+                "x": 0.23,
+                "y": -0.2,
+                "z": 0.01
+              }
+            },
+            "events": {
+              "INTERACTION.CLICK": true
+            }
+          },
+          {
+            "type": "mp.canvasRenderer",
+            "inputs": {
+              "opacity": 0,
+              "textureRes": {
+                "w": 128,
+                "h": 128
+              },
+
+              "soundOnSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "soundOffSrc": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png"
+            }
+          },
+          {
+            "type": "mp.canvasImage",
+            "inputs": {
+              "opacity": 0,
+              "src": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%9D%8C%EC%86%8C%EA%B1%B0.png",
+              "src2": "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%AA%A8%EC%9D%8C/%EC%86%8C%EB%A6%AC%EB%82%98%EC%98%B4.png",
+              "srcPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "srcSize": {
+                "w": 128,
+                "h": 128
+              },
+              "destPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "destSize": {
+                "w": 128,
+                "h": 128
+              }
+            }
+          }
+        ],
+        "bindings": [
+
+          [1, "src", 0, "src"],
+          [2, "src", 1, "video"],
+          [3, "texture", 2, "texture"],
+          [1, "enabled", 4, "state"],
+          [3, "aspect", 1, "aspect"],
+
+          [6, "painter", 7, "painter"],
+          [5, "texture", 6, "texture"],
+          [5, "aspect", 1, "aspect"],
+
+          [9, "painter", 10, "painter"],
+          [8, "texture", 9, "texture"],
+          [8, "visible", 4, "negated"],
+
+          [12, "painter", 13, "painter"],
+          [11, "texture", 12, "texture"],
+          [11, "visible", 4, "state"]
+
+        ],
+        "events": [
+          [4, "toggle", 3, "INTERACTION.CLICK"],
+          [0, "next", 11, "INTERACTION.CLICK"],
+          [12, "repaint", 13, "paint.ready"]
+        ]
+   }
+
+   
+  
+   
+   
+
+
+    ]
+  }
+}

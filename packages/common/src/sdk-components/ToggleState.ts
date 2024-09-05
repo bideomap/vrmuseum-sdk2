@@ -2,10 +2,12 @@ import { SceneComponent, ComponentOutput } from '../SceneComponent';
 
 enum Event {
   Toggle = 'toggle',
+  Unmute = "unmute",
 }
 
 type Inputs = {
   initialState: boolean;
+  isToggleTuner: boolean;
 };
 
 type Outputs = {
@@ -20,6 +22,7 @@ type Events = {
 class ToggleState extends SceneComponent {
   inputs: Inputs = {
     initialState: false,
+    isToggleTuner: false,
   };
 
   outputs = {

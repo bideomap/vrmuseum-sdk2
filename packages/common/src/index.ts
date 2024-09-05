@@ -78,5 +78,5 @@ export const initComponents = async (sdk: any) => {
 
 export const assetVersion = '1.0-2-g6b74572';
 export const cdnUrl = `https://static.matterport.com/showcase-sdk/examples/assets-${assetVersion}/assets`;
-export const sdkKey = '2d4dfb9fd6414902b663c25a6c767cfa';
+export const sdkKey = 'c1m12m98kwbb005ksdnx0g2fc';
 export const interfaceVersion = '3.10';

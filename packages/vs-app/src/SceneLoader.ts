@@ -1,4 +1,4 @@
-import scene from '../assets/vs-app.json';
+
 import { MpSdk } from '@mp/bundle-sdk/sdk';
 
 export class SceneLoader {
@@ -20,6 +20,26 @@ export class SceneLoader {
     for (const node of nodesToStop) {
       node.stop();
     }
+    
+    var url;
+    
+    const urltmp = window.location.href
+    
+    url = new URL(urltmp);
+
+    
+
+    const urlParams = url.searchParams;
+    
+    
+    const sceneImport = await import(
+      "../assets/" + urlParams.get("m") + ".json"
+    );
+
+    const sidToScene: Map<string, any> = new Map();
+
+    sidToScene.set("AAWs9eZ9ip6", sceneImport);
+
 
     const scene = sidToScene.get(sid);
     if (!scene) {
@@ -33,6 +53,8 @@ export class SceneLoader {
         callback(node);
       }
     }
+    var videoDelayNumber = 500;
+    await new Promise((resolve) => setTimeout(resolve, videoDelayNumber));
     this._sceneObject.start();
   }
 
@@ -43,6 +65,4 @@ export class SceneLoader {
   }
 }
 
-const sidToScene: Map<string, any> = new Map();
 
-sidToScene.set('AAWs9eZ9ip6', scene);

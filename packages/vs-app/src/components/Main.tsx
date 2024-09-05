@@ -45,6 +45,7 @@ export class Main extends Component<Props, State> {
   private src: string;
   private applicationKey: string;
   private sceneObject: MpSdk.Scene.IObject = null;
+  private modelKey: string;
 
   constructor(props: Props) {
     super(props);
@@ -53,16 +54,34 @@ export class Main extends Component<Props, State> {
       slotNode: null,
     };
 
-    // Forward url params.
+    const urltmp = window.location.href;
+
+    var url = new URL(urltmp);
+
+
+    const urlParams = url.searchParams;
+
     const params = objectFromQuery();
-    params.m = params.m || 'j4RZx7ZGM6T';
-    params.play = params.play || '1';
-    params.qs = params.qs || '1';
-    params.sr = params.sr || '-.15';
-    params.ss = params.ss || '25';
-    // ensure applicationKey is inserted into the bundle query string
+
+    params.m = params.m || urlParams.get("m");
+    
+    params.hr = params.hr || urlParams.get("hr"); 
+    params.play = params.play || urlParams.get("play") || "0";
+
+    params.qs = "1" || params.qs || urlParams.get("qs");
+    params.sr = params.sr || urlParams.get("sr");
+    params.ss = params.ss || urlParams.get("ss");
+    params.map = "0" || params.map || urlParams.get("map");
+    params.maprotation = "0" || urlParams.get("maprotation");
+    params.search = urlParams.get("search") || "1";
+    
+
+    params.logo = urlParams.get("logo") || "0";
+    
     params.applicationKey = params.applicationKey || sdkKey;
     this.applicationKey = params.applicationKey;
+
+    params.help = urlParams.get("help") || "0";
 
     const queryString = Object
       .keys(params)
@@ -71,10 +90,42 @@ export class Main extends Component<Props, State> {
     this.src = `./bundle/showcase.html?${queryString}`;
 
     this.handleListSelection = this.handleListSelection.bind(this);
+    this.modelKey = params.m;
+
+    
+    this.loadModel(this.modelKey);
+  }
+  async logoImage(thisSdk: any) {
+    var modelData = await thisSdk.Model.getData();
+    var logoSrcImage = document.createElement("img");
+    var LogoName =
+      "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/VRMuseumLogo/" +
+      modelData.sid.toString() +
+      ".png";
+    console.log(LogoName);
+    var request = new XMLHttpRequest();
+    request.open("GET", LogoName, true);
+    request.send();
+    request.onload = function () {
+      if (request.status == 200) {
+        logoSrcImage.src = LogoName; 
+      } else {
+        console.log("LogoImage doesn't exist");
+      }
+    };
+    var LogoContainer = document.getElementById("logo");
+    LogoContainer.appendChild(logoSrcImage);
+    
+    logoSrcImage.addEventListener("click", function () {
+      window.open("https://jeju.go.kr/is/onlinejeju43/", "_blank");
+    });
   }
 
   async componentDidMount() {
     this.sdk = await GetSDK('sdk-iframe', this.applicationKey);
+    await this.spotClickEvent(this.modelKey);
+    await this.tagClickEvent(this.modelKey);
+    await this.playClickEvent(this.modelKey);
     await initComponents(this.sdk);
     await this.createCameraControl();
     await this.sdk.Scene.configure((renderer: any, three: any) => {
@@ -84,6 +135,23 @@ export class Main extends Component<Props, State> {
       renderer.shadowMap.bias = 0.0001;
       renderer.shadowMap.type = three.PCFSoftShadowMap;
     });
+
+    
+    var url;
+    const urltmp = window.location.href;
+    url = new URL(urltmp);
+
+    const urlParams = url.searchParams;
+    //console.log("map : "+urlParams.get("map"));
+    //console.log(this.isMap);
+    
+    
+    //isLogo
+    if (urlParams.get("logo") == "1") {
+      await this.logoImage(this.sdk);
+    }
+
+
     this.scene = new SceneLoader(this.sdk);
     const slots: SlotNode[] = [];
 
@@ -217,6 +285,8 @@ export class Main extends Component<Props, State> {
           items={filteredItems}
           onSelected={this.handleListSelection}
         ></ItemList>
+        <div style={{ position: "absolute" }} id="map"></div>
+        <div style={{ position: "absolute" }} id="logo"></div>
         <Frame src={this.src}></Frame>
       </div>
     );
@@ -252,6 +322,90 @@ export class Main extends Component<Props, State> {
 
     cameraNode.start();
   }
+  async spotClickEvent(modelKey: string) {
+    this.sdk.on(
+      this.sdk.Sweep.Event.ENTER,
+      function (oldSweep: string, newSweep: string) {
+        //console.log(oldSweep, newSweep);
+        if (oldSweep && oldSweep !== newSweep) {
+          const url: string = `https://embed.360vrmuseum.com/api/spot/${modelKey}/${newSweep}`;
+
+          var xhr = new XMLHttpRequest();
+          xhr.open("POST", url, true);
+
+          xhr.onload = function (e) {
+            console.log("spot success"); // 여기에서 sweep move를 확인해야 할듯?
+          };
+
+          xhr.onerror = function (e) {
+            console.error(xhr.statusText);
+          };
+
+          xhr.send("");
+        }
+      }
+    );
+  }
+  async tagClickEvent(modelKey: string) {
+    this.sdk.on(this.sdk.Mattertag.Event.CLICK, function (sid: string) {
+      const url: string = `https://embed.360vrmuseum.com/api/tag/${modelKey}/${sid}`;
+
+      
+      var xhr = new XMLHttpRequest();
+      xhr.open("POST", url, true);
+
+      xhr.onload = function (e) {
+        console.log("tag success");
+      };
+
+      xhr.onerror = function (e) {
+        console.error(xhr.statusText);
+      };
+
+      xhr.send("");
+    });
+  }
+  async playClickEvent(modelKey: string) {
+    
+    this.sdk.on(this.sdk.App.Event.PHASE_CHANGE, function (app: string) {
+      if (app == "appphase.playing") {
+        const url: string = `https://embed.360vrmuseum.com/api/play/showcase/${modelKey}`;
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", url, true);
+
+        xhr.onload = function (e) {
+          console.log("play success");
+        };
+
+        xhr.onerror = function (e) {
+          console.error(xhr.statusText);
+        };
+
+        xhr.send("");
+      }
+    });
+  
+  }
+
+  private async loadModel(modelKey: string) {
+    const url: string = `https://embed.360vrmuseum.com/api/load/showcase/${modelKey}`;
+    //console.log("===================");
+    //console.log(modelKey);
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", url, true);
+
+    xhr.onload = function (e) {
+      console.log("load success");
+    };
+
+    xhr.onerror = function (e) {
+      console.error(xhr.statusText);
+    };
+
+    xhr.send("");
+  }
+
 }
 
 // from cwf/modules/browser.ts

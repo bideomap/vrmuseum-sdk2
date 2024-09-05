@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Virtual Staging Example</title>
+<title>360 VR Museum</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 <meta name="mobile-web-app-capable" content="yes">
@@ -20,10 +20,138 @@ html {
 #content {
   height: 100%;
 }
+#intro_box_background {
+  position: absolute; /* 컨테이너 내부 요소의 위치를 설정하기 위해 상대적인 위치로 설정합니다. */
+  width: 100%;
+  height: 100%;
+  background-color: #161616; /* 여백 공간의 배경색을 회색(#ccc)으로 설정합니다. */
+}
+#intro {position: absolute; left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); min-height: 100%; z-index: 9997; object-fit: over;  }
+
+    #join_btn {
+      position:absolute;
+      z-index:9998;
+      width: auto;
+      display:inline-block;
+      color:#01080a;
+      text-decoration:none;
+      border-radius:5px;
+      border:solid 1px #f5f2ed;
+      background:#ebe9e7;
+      text-align:center;
+      padding:16px 18px 14px;
+      margin: 12px;
+      bottom: 0px; right: 0px;
+      -webkit-transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      transition: all 0.1s;
+      
+      -webkit-box-shadow: 0px 6px 0px #bdbbba;
+      -moz-box-shadow: 0px 6px 0px #bdbbba;
+      box-shadow: 0px 6px 0px #bdbbba;
+    }
 </style>
 </head>
 <body>
+  <div id="intro_box_background">
+    <div id="intro_box">
+
+      <button id="join_btn" style onclick="skip();">
+          Skip
+      </button>
+    </div>
+  </div>
   <div id="content"></div>
   <script> src="js/main.bundle.js"</script>
 </body>
+<script>
+  
+  const urltmp = window.location.href;
+  var url = new URL(urltmp);
+  const urlParams = url.searchParams;
+
+  
+    function makeVideo() {
+      const video = document.createElement('video');
+      video.src = "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/DatakingVRMuseumIntroVideo/" + urlParams.get('m')
+    .toString() + ".mp4";;
+      video.autoplay = true;
+      video.muted = true;
+      video.loop = false;
+      video.type = "video/mp4";
+      video.id = "intro";
+
+      const introBox = document.getElementById('intro_box');
+      introBox.append(video);
+      
+      video.addEventListener('ended', function(){
+      
+        skip();
+      })
+
+      return video;
+    }
+
+    function appearSkip(e) {
+      const skipBtn = document.getElementById('join_btn');
+      skipBtn.style.display = "";
+    }
+
+    function removeVideo() {
+      const parent = document.getElementById("intro_box");
+      const child = document.getElementById("intro");
+      parent.removeChild(child);
+    }
+    
+    function skip() {
+      const skipBtn = document.getElementById('join_btn');
+      const skipIntroBackGround = document.getElementById('intro_box_background');
+      skipBtn.style.display = "none";
+      skipIntroBackGround.style.display = "none";
+
+      removeVideo();
+    }
+
+    function isMobile(){
+      const UserAgent = navigator.userAgent;
+      if (UserAgent.match(/iPhone|iPod|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) {
+        return true;
+      }
+      return false;
+    }
+
+    if (!isMobile()) {
+    var IntroSrc;
+    var Introbool = false;
+    var IntroName =
+      "https://vrmuseumstorage.blob.core.windows.net/vrmuseumblob1/DatakingVRMuseumIntroVideo/" + urlParams.get('m')
+      .toString() + ".mp4";
+
+      var request = new XMLHttpRequest();
+    request.open("GET", IntroName, true);
+    request.send();
+    request.onload = function () {
+    status = request.status;
+    if (request.status == 200) {
+      console.log("Intro exists");
+
+      const video = makeVideo();
+      video.play();
+      
+    } else {
+      console.log("Intro not exists");
+      skip();
+      
+
+    }
+
+    }
+  }
+  else{
+    skip();
+  }
+
+  </script>
 </html>
